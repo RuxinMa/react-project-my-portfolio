@@ -1,9 +1,5 @@
 ///
-<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
-=======
-/// Forty by HTML5 UP
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -11,29 +7,19 @@
 /* Image */
 
 	.image {
-<<<<<<< HEAD
 		border-radius: _size(border-radius);
-=======
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 		border: 0;
 		display: inline-block;
 		position: relative;
 
 		img {
-<<<<<<< HEAD
 			border-radius: _size(border-radius);
-=======
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			display: block;
 		}
 
 		&.left,
 		&.right {
-<<<<<<< HEAD
 			max-width: 40%;
-=======
-			max-width: 30%;
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 
 			img {
 				width: 100%;
@@ -42,21 +28,13 @@
 
 		&.left {
 			float: left;
-<<<<<<< HEAD
 			margin: 0 1.5em 1em 0;
-=======
-			margin: 0 1.5em 1.25em 0;
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			top: 0.25em;
 		}
 
 		&.right {
 			float: right;
-<<<<<<< HEAD
 			margin: 0 0 1em 1.5em;
-=======
-			margin: 0 0 1.25em 1.5em;
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			top: 0.25em;
 		}
 
@@ -72,22 +50,11 @@
 
 		&.main {
 			display: block;
-<<<<<<< HEAD
 			margin: 0 0 (_size(element-margin) * 1.5) 0;
-=======
-			margin: (_size(element-margin) * 1.25) 0;
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			width: 100%;
 
 			img {
 				width: 100%;
 			}
-<<<<<<< HEAD
-=======
-
-			@include breakpoint('<=small') {
-				margin: (_size(element-margin) * 0.75) 0;
-			}
->>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 		}
 	}
