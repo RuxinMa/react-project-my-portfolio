@@ -1,5 +1,9 @@
 ///
+<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
+=======
+/// Forty by HTML5 UP
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -31,6 +35,7 @@
 			}
 		}
 
+<<<<<<< HEAD
 		&.major {
 			width: 2.5em;
 			height: 2.5em;
@@ -67,6 +72,37 @@
 
 				.wrapper.style3-alt & {
 					color: _palette(accent3-alt);
+=======
+		&.alt {
+			&:before {
+				background-color: _palette(fg-bold);
+				border-radius: 100%;
+				color: _palette(bg);
+				display: inline-block;
+				height: 2em;
+				line-height: 2em;
+				text-align: center;
+				width: 2em;
+			}
+		}
+	}
+
+	a.icon {
+		&.alt {
+			&:before {
+				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+			}
+
+			&:hover {
+				&:before {
+					background-color: _palette(accent1);
+				}
+			}
+
+			&:active {
+				&:before {
+					background-color: desaturate(darken(_palette(accent1), 15), 5);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 				}
 			}
 		}

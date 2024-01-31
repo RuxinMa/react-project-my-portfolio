@@ -1,5 +1,9 @@
 ///
+<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
+=======
+/// Forty by HTML5 UP
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -13,7 +17,11 @@
 			margin-bottom: 0;
 		}
 
+<<<<<<< HEAD
 		> .fields {
+=======
+		> .fields  {
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			$gutter: (_size(element-margin) * 0.75);
 
 			@include vendor('display', 'flex');
@@ -70,24 +78,43 @@
 
 	label {
 		color: _palette(fg-bold);
+<<<<<<< HEAD
 		font-weight: _font(weight-bold);
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.35) 0;
 		display: block;
 		font-size: 1.1em;
+=======
+		display: block;
+		font-size: 0.8em;
+		font-weight: _font(weight-bold);
+		letter-spacing: _font(letter-spacing-alt);
+		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		text-transform: uppercase;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 	}
 
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
+<<<<<<< HEAD
+=======
+	input[type="search"],
+	input[type="url"],
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
+<<<<<<< HEAD
 		border-radius: _size(border-radius);
 		border: none;
 		border: solid _size(border-width) _palette(border);
+=======
+		border: none;
+		border-radius: 0;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -100,8 +127,13 @@
 		}
 
 		&:focus {
+<<<<<<< HEAD
 			border-color: _palette(fg-bold);
 			box-shadow: 0 0 0 _size(border-width) _palette(fg-bold);
+=======
+			border-color: _palette(highlight);
+			box-shadow: 0 0 0 2px _palette(highlight);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 		}
 	}
 
@@ -133,16 +165,25 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+<<<<<<< HEAD
+=======
+	input[type="tel"],
+	input[type="search"],
+	input[type="url"],
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 	select {
 		height: _size(element-height);
 	}
 
 	textarea {
 		padding: 0.75em 1em;
+<<<<<<< HEAD
 
 		body.is-ie & {
 			min-height: 10em;
 		}
+=======
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 	}
 
 	input[type="checkbox"],
@@ -160,21 +201,33 @@
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
+<<<<<<< HEAD
 			font-size: 1em;
 			font-weight: _font(weight);
 			padding-left: (_size(element-height) * 0.6) + 0.75em;
+=======
+			font-weight: _font(weight);
+			padding-left: (_size(element-height) * 0.6) + 1em;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			padding-right: 0.75em;
 			position: relative;
 
 			&:before {
 				background: _palette(border-bg);
+<<<<<<< HEAD
 				border-radius: _size(border-radius);
 				border: solid _size(border-width) _palette(border);
+=======
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
 				height: (_size(element-height) * 0.75);
 				left: 0;
+<<<<<<< HEAD
+=======
+				letter-spacing: 0;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 				line-height: (_size(element-height) * 0.75);
 				position: absolute;
 				text-align: center;
@@ -186,16 +239,26 @@
 		&:checked + label {
 			&:before {
 				background: _palette(fg-bold);
+<<<<<<< HEAD
 				border-color: _palette(fg-bold);
 				color: _palette(accent3);
 				content: '\f00c';
+=======
+				border-color: _palette(highlight);
+				content: '\f00c';
+				color: _palette(bg);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			}
 		}
 
 		&:focus + label {
 			&:before {
+<<<<<<< HEAD
 				border-color: _palette(fg-bold);
 				box-shadow: 0 0 0 _size(border-width) _palette(fg-bold);
+=======
+				box-shadow: 0 0 0 2px _palette(highlight);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			}
 		}
 	}
@@ -203,7 +266,10 @@
 	input[type="checkbox"] {
 		& + label {
 			&:before {
+<<<<<<< HEAD
 				border-radius: _size(border-radius);
+=======
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			}
 		}
 	}

@@ -1,5 +1,9 @@
 ///
+<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
+=======
+/// Forty by HTML5 UP
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -17,7 +21,11 @@
 
 		tbody {
 			tr {
+<<<<<<< HEAD
 				border: solid _size(border-width) _palette(border);
+=======
+				border: solid 1px _palette(border);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 				border-left: 0;
 				border-right: 0;
 
@@ -33,18 +41,30 @@
 
 		th {
 			color: _palette(fg-bold);
+<<<<<<< HEAD
 			font-size: 1em;
+=======
+			font-size: 0.9em;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 			font-weight: _font(weight-bold);
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
 
 		thead {
+<<<<<<< HEAD
 			border-bottom: solid (_size(border-width) * 2) _palette(border);
 		}
 
 		tfoot {
 			border-top: solid (_size(border-width) * 2) _palette(border);
+=======
+			border-bottom: solid 2px _palette(border);
+		}
+
+		tfoot {
+			border-top: solid 2px _palette(border);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 		}
 
 		&.alt {
@@ -53,18 +73,30 @@
 			tbody {
 				tr {
 					td {
+<<<<<<< HEAD
 						border: solid _size(border-width) _palette(border);
+=======
+						border: solid 1px _palette(border);
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 						border-left-width: 0;
 						border-top-width: 0;
 
 						&:first-child {
+<<<<<<< HEAD
 							border-left-width: _size(border-width);
+=======
+							border-left-width: 1px;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 						}
 					}
 
 					&:first-child {
 						td {
+<<<<<<< HEAD
 							border-top-width: _size(border-width);
+=======
+							border-top-width: 1px;
+>>>>>>> e91dc336e71cb7c8d2f190a743c533e689606bce
 						}
 					}
 				}
