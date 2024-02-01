@@ -1,5 +1,6 @@
 import aboutSvg from '../assets/about.svg';
 import SectionTitle from './SectionTitle';
+
 const About = () => {
   return (
     <section className='bg-white py-20' id='about'>
@@ -8,14 +9,12 @@ const About = () => {
         <article>
           <SectionTitle text='code and coffee' />
           <p className='text-slate-600 mt-8 leading-loose'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-            maiores itaque doloribus asperiores dolorum quas voluptates
-            distinctio, porro beatae quam provident libero animi totam,
-            praesentium voluptatem corrupti dignissimos ipsum accusantium!
+          Highly motivated postgraduate student with a strong passion for <strong>computer science</strong>. Dedicated to the IT industry with over <strong>5 years</strong> of experience excelling at software design and development, multiple-parties collaboration, project management, and following through to achieve project goals. Offering front-end programming skills, and abundant work experience in Web development. Highly organized, proactive and punctual with a team-oriented mentality.
           </p>
         </article>
       </div>
     </section>
   );
 };
+
 export default About;

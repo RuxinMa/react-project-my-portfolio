@@ -5,4 +5,5 @@ const SectionTitle = ({ text }) => {
     </div>
   );
 };
+
 export default SectionTitle;

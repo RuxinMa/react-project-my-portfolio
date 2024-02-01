@@ -7,4 +7,5 @@ const SkillsCard = ({ icon, title, text }) => {
     </article>
   );
 };
+
 export default SkillsCard;
