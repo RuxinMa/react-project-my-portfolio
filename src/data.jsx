@@ -51,7 +51,7 @@ export const skills = [
     id: nanoid(),
     title: 'MySQL',
     icon: <FaDatabase className='h-16 w-16 text-indigo-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Adept in leveraging MySQL for comprehensive data organization and analysis, aligning seamlessly with full-stack development',
   },
   {
     id: nanoid(),
