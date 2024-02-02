@@ -1,10 +1,10 @@
 ## Project Review
 
 ### Technologies
-React, JavaScript, Vite, Tailwind
+React, JavaScript, Vite, Tailwind CSS
 
 ### Description
-Create a responsive website for personal portfolio， and the components include:
+Create a responsive website for personal portfolio，and the components include:
 - Navbar
 - Home(Hero)
 - Skills => skill card
