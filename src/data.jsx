@@ -1,8 +1,12 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaPython, FaTerminal, FaDatabase, FaProjectDiagram, FaMobile, FaLaptop } from 'react-icons/fa';
 
-import project2 from './images/backroads.png';
-import project3 from './images/booklist.png';
+import project1 from './images/github-user.png';
+import project2 from './images/portfolio.png'
+import project3 from './images/backroads.png';
+import project4 from './images/booklist.png';
+import project5 from './images/yyds.png';
+
 
 
 export const links = [
@@ -72,12 +76,12 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
+    img: project1,
+    url: 'https://rm-react-project-github-users.netlify.app/',
+    github: 'https://github.com/RuxinMa/react-project-github-users',
+    title: 'GitHub Users',
     role: 'Front-End Developer',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Using JavaScript, React, HTML, CSS, GitHub API, Auth0 and Fusion Charts to craft a dynamic and responsive site for GitHub user search and data presentation.',
     src: 1,
   },
   {
@@ -85,29 +89,39 @@ export const projects = [
     img: project2,
     url: 'https://rm-react-project-backroads.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-backroads',
-    title: 'Backroads APP',
+    title: 'My Portfolio',
     role: 'Front-End Developer',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: "Implementing a responsive personal website using JavaScript, React, HTML, Vite, and Tailwind to showcase skills and projects in a  structured and intuitive way.",
     src: 1,
   },
   {
     id: nanoid(),
     img: project3,
-    url: 'https://rm-react-project-booklist.netlify.app/',
-    github: 'https://github.com/RuxinMa/react-project-booklist',
-    title: 'Booklist',
+    url: 'https://rm-react-project-backroads.netlify.app/',
+    github: 'https://github.com/RuxinMa/react-project-backroads',
+    title: 'Backroads APP',
     role: 'Front-End Developer',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Extensively employing JavaScript ES6+ and React componentization to implement a responsive website for travel applications to showcase their products.',
     src: 1,
   },
   {
     id: nanoid(),
-    img: project2,
+    img: project4,
     url: 'https://rm-react-project-booklist.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-booklist',
+    title: 'Booklist',
+    role: 'Front-End Developer',
+    text: "Creating a static and responsive webpage inspired by Amazon's book seller list, showcasing a comprehensive display of books and their information.",
+    src: 1,
+  },
+  {
+    id: nanoid(),
+    img: project5,
+    url: 'https://www.baidu.com/s?wd=yyds%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D',
+    github: 'https://github.com/RuxinMa/ba-project-seo',
     title: 'Search Engine Optimization',
-    role: 'Bussiness Analysis',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    role: 'Bussiness Analysis (Baidu Co.)',
+    text: "The project is called Improve Users' Perception of Featured Snippet, which is mainly optimized and innovated to meet users'search needs and experience.",
     src: 2,
   },
 ];

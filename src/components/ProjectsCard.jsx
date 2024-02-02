@@ -18,7 +18,7 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
       <div className='capitalize p-8'>
         <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
         <h4 className='tracking-wide'>{role}</h4>
-        <p className='mt-4 text-slate-700 leading-loose'>{text}</p>
+        <p className='mt-2 text-slate-700 leading-loose normal-case'>{text}</p>
         <div className='mt-4 flex gap-x-4'>
           <a href={url}>{iconComponent}</a>
           <a href={github}>
