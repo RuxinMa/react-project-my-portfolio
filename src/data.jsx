@@ -87,8 +87,8 @@ export const projects = [
   {
     id: nanoid(),
     img: project2,
-    url: 'https://rm-react-project-backroads.netlify.app/',
-    github: 'https://github.com/RuxinMa/react-project-backroads',
+    url: 'https://ruxinma.netlify.app/',
+    github: 'https://github.com/RuxinMa/react-project-my-portfolio',
     title: 'My Portfolio',
     role: 'Front-End Developer',
     text: "Implementing a responsive personal website using JavaScript, React, HTML, Vite, and Tailwind to showcase skills and projects in a  structured and intuitive way.",
