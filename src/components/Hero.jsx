@@ -8,7 +8,7 @@ const Hero = () => {
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>This is Ruxin Ma</h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
-            Front-End Developer
+            Software Developer
           </p>
           <p className='mt-2 text-lg text-slate-700 tracking-wide'>
             Computer postgraduate student at the University of Adelaide

@@ -9,7 +9,7 @@ const About = () => {
         <article>
           <SectionTitle text='code and coffee' />
           <p className='text-slate-600 mt-8 leading-loose'>
-          Highly motivated postgraduate student with a strong passion for <strong>computer science</strong>. Dedicated to the IT industry with over <strong>5 years</strong> of experience excelling at software design and development, multiple-parties collaboration, project management, and following through to achieve project goals. Offering front-end programming skills, and abundant work experience in Web development. Highly organized, proactive and punctual with a team-oriented mentality.
+          Highly motivated postgraduate student with a strong passion for <strong>computer science</strong>. Dedicated to the IT industry with over <strong>5 years</strong> of experience excelling at software design and development, multiple-parties collaboration, agile project management, and following through to achieve project goals. <br></br>Offering front end programming basic skills, MySQL, Git, and abundant work experience in web application.
           </p>
         </article>
       </div>
