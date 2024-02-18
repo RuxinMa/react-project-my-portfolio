@@ -3,10 +3,10 @@ import { FaHtml5, FaJs, FaReact, FaPython, FaTerminal, FaDatabase, FaProjectDiag
 
 import project1 from './images/github-user.png';
 import project2 from './images/portfolio.png'
-import project3 from './images/backroads.png';
-import project4 from './images/booklist.png';
-import project5 from './images/yyds.png';
-
+import project3 from './images/shopping-cart.png'
+import project4 from './images/backroads.png';
+import project5 from './images/booklist.png';
+import project6 from './images/yyds.png';
 
 
 export const links = [
@@ -97,6 +97,16 @@ export const projects = [
   {
     id: nanoid(),
     img: project3,
+    url: 'https://rm-react-project-shopping-cart.netlify.app/',
+    github: 'https://github.com/RuxinMa/react-project-shopping-cart',
+    title: 'Shopping Cart',
+    role: 'Front-End Developer',
+    text: 'Utilizing React Redux to handle various states and actions associated with cart items seamlessly, including increasing, decreasing, and removing items.',
+    src: 1,
+  },
+  {
+    id: nanoid(),
+    img: project4,
     url: 'https://rm-react-project-backroads.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-backroads',
     title: 'Backroads APP',
@@ -106,7 +116,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project4,
+    img: project5,
     url: 'https://rm-react-project-booklist.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-booklist',
     title: 'Booklist',
@@ -116,7 +126,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project5,
+    img: project6,
     url: 'https://www.baidu.com/s?wd=yyds%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D',
     github: 'https://github.com/RuxinMa/ba-project-seo',
     title: 'Search Engine Optimization',
