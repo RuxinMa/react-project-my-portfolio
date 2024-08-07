@@ -7,9 +7,9 @@ const Projects = () => {
     <div className='bg-indigo-300'>
       <section className='py-20 align-element' id='projects'>
         <SectionTitle 
-          borderColor='#4f46e5'
+          borderColor='#3730a3'
           text='web creations' 
-          textColor='text-violet-50'
+          textColor='text-zinc-900'
         />
         <div className='py-16 grid lg:grid-cols-2 gap-8'>
           {projects.map((project) => {
