@@ -1,16 +1,17 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaPython, FaTerminal, FaDatabase, FaProjectDiagram, FaMobile, FaLaptop } from 'react-icons/fa';
 
-import project1 from './images/github-user.png';
-import project2 from './images/portfolio.png'
-import project3 from './images/shopping-cart.png'
-import project4 from './images/backroads.png';
-import project5 from './images/booklist.png';
-import project6 from './images/yyds.png';
+import project1 from './images/facts.png';
+import project2 from './images/github-user.png';
+import project3 from './images/portfolio.png'
+import project4 from './images/shopping-cart.png'
+import project5 from './images/backroads.png';
+import project6 from './images/booklist.png';
+import project7 from './images/yyds.png';
 
 
 export const links = [
-  { id: nanoid(), href: '#home', text: 'home' },
+  { id: nanoid(), href: '#hero', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
@@ -74,9 +75,19 @@ export const skills = [
 ];
 
 export const projects = [
-  {
+    {
     id: nanoid(),
     img: project1,
+    url: 'https://rm-react-project-facts.netlify.app/',
+    github: 'https://github.com/RuxinMa/react-project-facts',
+    title: 'Share a Fact',
+    role: 'Full-Stack Developer',
+    text: 'Using JavaScript, React, HTML, CSS, SupaBase and Auth0 to build a full-stack web application. Highlight features include discover facts, login and post a new fact, vote for facts.',
+    src: 1,
+  },
+  {
+    id: nanoid(),
+    img: project2,
     url: 'https://rm-react-project-github-users.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-github-users',
     title: 'GitHub Users',
@@ -86,7 +97,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project2,
+    img: project3,
     url: 'https://ruxinma.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-my-portfolio',
     title: 'My Portfolio',
@@ -96,7 +107,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project3,
+    img: project4,
     url: 'https://rm-react-project-shopping-cart.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-shopping-cart',
     title: 'Shopping Cart',
@@ -106,7 +117,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project4,
+    img: project5,
     url: 'https://rm-react-project-backroads.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-backroads',
     title: 'Backroads APP',
@@ -116,7 +127,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project5,
+    img: project6,
     url: 'https://rm-react-project-booklist.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-booklist',
     title: 'Booklist',
@@ -126,7 +137,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project6,
+    img: project7,
     url: 'https://www.baidu.com/s?wd=yyds%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D',
     github: 'https://github.com/RuxinMa/ba-project-seo',
     title: 'Search Engine Optimization',
@@ -134,4 +145,21 @@ export const projects = [
     text: "The project is called Improve Users' Perception of Featured Snippet, which is mainly optimized and innovated to meet users'search needs and experience.",
     src: 2,
   },
+];
+
+export const experiences = [
+  {
+    id: nanoid(),
+    duration:'Aug 2024 - Now',
+    company:'Himalaya Peak',
+    role:'Software Developer Intern',
+    description:'Host company from Uni CareerHub, a start-up providing innovative and reliable business solutions, including website creation, Link in Bio services, and SCM software'
+  },
+  {
+    id: nanoid(),
+    duration:'July 2024 - Now',
+    company:'QuickSite',
+    role:'Web Developer Intern',
+    description:'Description: Platform for startups and small businesses to rapidly customize and launch web pages.Adept at identifying requirements and submitting feature requests to improve the company’s product Using TypeScript, Tailwind CSS and React to develop reusable components of the website templat Proactively participated in weekly meetings, providing, and incorporating constructive feedback'
+  }
 ];

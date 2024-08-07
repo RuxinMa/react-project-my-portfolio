@@ -2,19 +2,20 @@ import { links } from '../data';
 
 const Navbar = () => {
   return (
-    <nav className='bg-indigo-100'>
+    <nav className='fixed top-0 left-0 right-0 z-50 bg-indigo-600'>
       <div className='mx-auto max-w-7xl px-8 py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-3xl font-bold'>
-          Web<span className='text-indigo-600'>Dev</span>
+          <span className='text-black'>Web</span>
+          <span className='text-violet-200'>Dev</span>
         </h2>
-        <div className='flex gap-x-3'>
+        <div className='flex gap-x-5'>
           {links.map((link) => {
             const { id, href, text } = link;
             return (
               <a 
                 key={id}
                 href={href}
-                className='capitalize text-lg tracking-wide hover:text-indigo-600 hover:font-bold duration-300'
+                className='capitalize text-xl text-violet-200 font-medium tracking-wide hover:text-indigo-600 hover:font-bold duration-300'
               >
                 {text}
               </a>

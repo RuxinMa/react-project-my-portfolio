@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className='bg-indigo-100 py-24'>
+    <div className='bg-indigo-200 py-16'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>This is Ruxin Ma</h1>

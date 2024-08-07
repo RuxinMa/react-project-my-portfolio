@@ -1,7 +1,10 @@
-const SectionTitle = ({ text }) => {
+const SectionTitle = ({ borderColor, text, textColor }) => {
   return (
-    <div className='border-b border-gray-200 pb-5'>
-      <h2 className='text-3xl font-medium tracking-wider capitalize'>{text}</h2>
+    <div 
+      style={{ borderBottom: `solid ${borderColor}` }} 
+      className='pb-5'
+    >
+      <h2 className={`text-3xl font-medium tracking-wider capitalize ${textColor}`}>{text}</h2>
     </div>
   );
 };

@@ -4,5 +4,14 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function({ addBase, theme }) {
+      addBase({
+        'html': { 
+          scrollPaddingTop: '100px',
+          scrollBehavior: 'smooth',
+        },
+      })
+    },
+  ],
 };

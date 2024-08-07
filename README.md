@@ -14,6 +14,12 @@ Create a responsive website for personal portfolio，and the components include:
 
 ## Other Info
 
+### Setup
+
+####```yarn install
+
+####```yarn vite
+
 #### Setup Vite and Tailwind
 
 [Tailwind Docs](https://tailwindcss.com/docs/guides/vite)

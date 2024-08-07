@@ -6,13 +6,16 @@ import Skills from './components/Skills';
 
 const App = () => {
   return (
-    <>
+    <div className='relative'>
       <Navbar />
-      <Hero />
-      <Skills />
-      <About />
-      <Projects />
-    </>
+      <div className='pt-20'>
+        <Hero />
+        <Skills />
+        <About />
+        <Projects />
+      </div>
+    </div>
   );
 };
+
 export default App;
