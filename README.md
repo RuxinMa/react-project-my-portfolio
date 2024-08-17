@@ -6,7 +6,7 @@ React, JavaScript, Vite, Tailwind CSS
 ### Description
 Create a responsive website for personal portfolio，and the components include:
 - Navbar
-- Home(Hero)
+- Home (Hero)
 - Skills => skill card
 - About
 - Projects => project card
@@ -15,10 +15,15 @@ Create a responsive website for personal portfolio，and the components include:
 ## Other Info
 
 ### Setup
+```sh
+yarn install
+```
 
-```yarn install
+then
 
-```yarn vite
+```sh
+yarn vite
+```
 
 #### Setup Vite and Tailwind
 
