@@ -7,7 +7,10 @@ const About = () => {
     <div className='bg-indigo-100'>
       <section className='py-20' id='about'>
         <div className='align-element grid md:grid-cols-2 items-center gap-6'>
-          <img src={aboutSvg} className='w-full h-72' />
+          <img 
+            src={aboutSvg} 
+            className='w-full h-72' 
+          />
           <article>
             <SectionTitle
               borderColor='#312e81'

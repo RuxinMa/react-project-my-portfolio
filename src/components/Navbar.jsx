@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className='mx-auto max-w-7xl px-8 py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-3xl font-bold'>
           <span className='text-black'>Web</span>
-          <span className='text-violet-200'>Dev</span>
+          <span className='text-violet-50'>Dev</span>
         </h2>
         <div className='flex gap-x-5'>
           {links.map((link) => {
@@ -15,7 +15,7 @@ const Navbar = () => {
               <a 
                 key={id}
                 href={href}
-                className='capitalize text-xl text-violet-200 font-medium tracking-wide hover:text-indigo-600 hover:font-bold duration-300'
+                className='capitalize text-xl text-violet-50 font-semibold tracking-wide hover:text-indigo-400 hover:font-bold duration-300'
               >
                 {text}
               </a>
