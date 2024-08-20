@@ -34,7 +34,8 @@ const Hero = () => {
             </a>
             <a 
               href='https://www.linkedin.com/in/ruxin-ma/'
-              target='_blank'>
+              target='_blank'
+            >
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
