@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 const About = () => {
   return (
     <div className='bg-indigo-100'>
-      <section className='py-20' id='about'>
+      <section id='about' className='py-20'>
         <div className='align-element grid md:grid-cols-2 items-center gap-6'>
           <img 
             src={aboutSvg} 

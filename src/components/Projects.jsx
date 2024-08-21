@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 const Projects = () => {
   return (
     <div className='bg-indigo-300'>
-      <section className='py-20 align-element' id='projects'>
+      <section id='projects' className='py-20 align-element'>
         <SectionTitle 
           borderColor='#3730a3'
           text='web creations' 
