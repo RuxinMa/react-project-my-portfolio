@@ -1,10 +1,10 @@
 import ProjectsCard from './ProjectsCard';
-import { projects } from '../data';
-import SectionTitle from './SectionTitle';
+import { projects } from '../../data';
+import SectionTitle from '../SectionTitle';
 
 const Projects = () => {
   return (
-    <div className='bg-indigo-300'>
+    <div>
       <section id='projects' className='py-20 align-element'>
         <SectionTitle 
           borderColor='#3730a3'

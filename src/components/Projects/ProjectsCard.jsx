@@ -17,7 +17,7 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
       <img 
         src={img} 
         alt={title} 
-        className='w-full object-cover rounded-t-lg h-80 border-2 border-dashed border-gray-300'
+        className='w-full object-cover rounded-t-lg h-80'
       />
       <div className='capitalize p-8'>
         <h2 className='text-xl tracking-wide font-bold'>{title}</h2>

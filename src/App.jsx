@@ -1,20 +1,23 @@
-import About from './components/About';
-import Hero from './components/Hero';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 const App = () => {
   return (
-    <div className='relative'>
-      <Navbar />
-      <div className='pt-20'>
-        <Hero />
-        <Skills />
-        <About />
-        <Projects />
+    <Router>
+      <div className='relative'>
+        <Navbar />
+        <div className='pt-20 min-h-screen bg-indigo-200'>
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 };
 
