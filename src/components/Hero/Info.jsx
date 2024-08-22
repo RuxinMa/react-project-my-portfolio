@@ -4,7 +4,7 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 function Info() {
   return(
-    <section className='pt-20 mt-24 lg:mt-48 px-12 lg:px-20 font-sans'>
+    <section className='pt-20 mt-24 lg:mt-48 px-2 lg:px-20 font-sans'>
       <h1 className="text-4xl font-medium text-center">
           LET ME <span className="text-indigo-600"> INTRODUCE </span> MYSELF
       </h1>
@@ -19,7 +19,7 @@ function Info() {
           />
         </div>
 
-        <p className="lg:col-span-2 mt-4 text-xl text-slate-700 tracking-wide">
+        <p className="lg:col-span-2 mt-4 text-lg lg:text-xl text-slate-700 tracking-wide">
           I am currently pursuing Master of Computing and Innovation at the
           <b>{" "}University of Adelaide</b> 👩‍🎓 
           <br />

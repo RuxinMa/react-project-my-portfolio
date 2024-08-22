@@ -20,7 +20,7 @@ const Hero = () => {
             <strong> RUXIN MA</strong>
           </h1>
 
-          <div className='mt-12 lg:mt-20 text-4xl text-indigo-600 capitalize font-semibold'>
+          <div className='mt-12 lg:mt-20 text-3xl lg:text-4xl text-indigo-600 capitalize font-semibold'>
             <Type />
           </div>
         </article>
