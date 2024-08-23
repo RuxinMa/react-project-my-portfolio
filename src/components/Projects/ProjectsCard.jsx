@@ -24,8 +24,8 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
         <h4 className='lg:text-lg'>{role}</h4>
         <p className='mt-2 leading-relaxed normal-case lg:text-lg'>{text}</p>
         <div className='mt-4 flex gap-x-4'>
-          <a href={url}>{iconComponent}</a>
-          <a href={github}>
+          <a href={url} target='_blank'>{iconComponent}</a>
+          <a href={github} target='_blank'>
             <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-700 duration-300' />
           </a>
         </div>

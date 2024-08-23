@@ -4,9 +4,9 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 function Info() {
   return(
-    <section className='pt-20 mt-24 lg:mt-48 px-2 lg:px-20 font-sans'>
+    <section className='pt-20 mt-20 lg:mt-48 px-2 lg:px-20 font-sans'>
       <h1 className="text-4xl font-medium text-center">
-          LET ME <span className="text-fuchsia-600"> INTRODUCE </span> MYSELF
+          LET ME <span className="text-fuchsia-500"> INTRODUCE </span> MYSELF
       </h1>
 
       <article className="align-element grid xl:grid-cols-3 items-center gap-16">
@@ -20,20 +20,20 @@ function Info() {
 
         <p className="lg:col-span-2 mt-10 pt-2 text-lg lg:text-xl tracking-wide">
           I am currently pursuing Master of Computing and Innovation at the
-          <b>{" "}University of Adelaide</b> 👩‍🎓 
+          <b className='text-fuchsia-500'>{" "}University of Adelaide</b> 👩‍🎓 
           <br />
-          <br /> Prior to this, I worked as a<i><b>{" "}Business Analyst</b></i>
+          <br /> Prior to this, I worked as a<i><b className='text-fuchsia-500'>{" "}Business Analyst</b></i>
           <br />
           <br />
              My passion of computer science led me to study abroad, where I learned
-          <i>
+          <i className='text-fuchsia-500'>
             <b>{" "}Python </b> and
             <b>{" "}Data Structure and Algorithms</b>
           </i>
           <br />
           <br />
-          Then, I taught myself<b> Web Development</b>, including
-          <i>
+          Then, I taught myself<b className='text-fuchsia-500'> Web Development</b>, including
+          <i className='text-fuchsia-500'>
             <b>
               {" "}
               HTML, CSS, Javascript
@@ -42,7 +42,7 @@ function Info() {
           </i>. 
           I am always eager to learn new technologies, and my career objective is to become a 
           <i>
-            <b> Full Stack Developer</b>
+            <b className='text-fuchsia-500'> Full Stack Developer</b>
           </i>
         </p>
 
@@ -66,10 +66,11 @@ function Info() {
           <a 
             href='https://www.linkedin.com/in/ruxin-ma/'
             target='_blank'
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
-            <FaLinkedin className='h-8 w-8 hover:text-fuchsia-600 duration-300' />
+            <FaLinkedin className='h-8 w-8'/>
           </a>
+
         </div>
       </div>
     </section>

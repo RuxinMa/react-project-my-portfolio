@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <div className='relative min-h-screen'>
         <div className='absolute inset-0 z-0'>
-          <JpgBackground className="opacity-20" />  {/* 调整透明度以便看到SVG背景 */}
+          <JpgBackground className="opacity-20" /> 
         </div>
         <div className='absolute left-3/4 top-1/4 -translate-x-1/2 -translate-y-1/2'>
           <Background/>
