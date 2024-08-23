@@ -6,20 +6,19 @@ function Info() {
   return(
     <section className='pt-20 mt-24 lg:mt-48 px-2 lg:px-20 font-sans'>
       <h1 className="text-4xl font-medium text-center">
-          LET ME <span className="text-indigo-600"> INTRODUCE </span> MYSELF
+          LET ME <span className="text-fuchsia-600"> INTRODUCE </span> MYSELF
       </h1>
 
-      <article className="align-element mt-12 grid xl:grid-cols-3 items-center gap-20">
-
-        <div className="hidden xl:flex xl:col-span-1 pt-2">
+      <article className="align-element grid xl:grid-cols-3 items-center gap-16">
+        <div className="hidden xl:flex xl:col-span-1">
           <img 
             src={infoImg} 
             alt="Info"
-            className='h-72 w-auto object-contain'
+            className='h-96 w-auto object-contain'
           />
         </div>
 
-        <p className="lg:col-span-2 mt-4 text-lg lg:text-xl text-slate-700 tracking-wide">
+        <p className="lg:col-span-2 mt-10 pt-2 text-lg lg:text-xl tracking-wide">
           I am currently pursuing Master of Computing and Innovation at the
           <b>{" "}University of Adelaide</b> 👩‍🎓 
           <br />
@@ -52,7 +51,7 @@ function Info() {
       <div className="mt-20 lg:mt-32 text-center">
         <h1 className="text-3xl">FIND ME ON</h1>
         <p className="mt-3 text-lg">
-          Feel free to <span className="text-indigo-600 font-semibold">connect </span>with me
+          Feel free to <span className="text-fuchsia-600 font-semibold">connect </span>with me
         </p>
       
         {/* social media */}
@@ -62,14 +61,14 @@ function Info() {
             target='_blank'
             rel="noopener noreferrer"
           >
-            <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-600 duration-300' />
           </a>
           <a 
             href='https://www.linkedin.com/in/ruxin-ma/'
             target='_blank'
             rel="noopener noreferrer"
           >
-            <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            <FaLinkedin className='h-8 w-8 hover:text-fuchsia-600 duration-300' />
           </a>
         </div>
       </div>

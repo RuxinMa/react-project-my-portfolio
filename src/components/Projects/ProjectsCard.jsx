@@ -7,26 +7,26 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
   let iconComponent;
 
   if (src === 1) {
-    iconComponent = <TbWorldWww className='h-8 w-8 text-slate-500 hover:text-black duration-300' />;
+    iconComponent = <TbWorldWww className='h-8 w-8 hover:text-fuchsia-700 duration-300' />;
   } else {
-    iconComponent = <RiBaiduFill className='h-8 w-8 text-slate-500 hover:text-black duration-300' />;
+    iconComponent = <RiBaiduFill className='h-8 w-8 hover:text-fuchsia-700 duration-300' />;
   }
 
   return (
-    <article className='bg-white rounded-lg shadow-md hover:shadow-xl duration-300'>
+    <article className='bg-fuchsia-950 bg-opacity-10 rounded-lg shadow-md hover:shadow-xl duration-300 border-2 border-fuchsia-800 tracking-wide'>
       <img 
         src={img} 
         alt={title} 
         className='w-full object-cover rounded-t-lg h-80'
       />
       <div className='capitalize p-8'>
-        <h2 className='text-xl tracking-wide font-bold'>{title}</h2>
-        <h4 className='tracking-wide'>{role}</h4>
-        <p className='mt-2 text-slate-700 leading-relaxed normal-case'>{text}</p>
+        <h2 className='text-2xl tracking-wide font-bold'>{title}</h2>
+        <h4 className='lg:text-lg'>{role}</h4>
+        <p className='mt-2 leading-relaxed normal-case lg:text-lg'>{text}</p>
         <div className='mt-4 flex gap-x-4'>
           <a href={url}>{iconComponent}</a>
           <a href={github}>
-            <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-700 duration-300' />
           </a>
         </div>
       </div>

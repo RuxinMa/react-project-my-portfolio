@@ -6,7 +6,7 @@ import { skills } from '../../data';
 
 const About = () => {
   return (
-    <div>
+    <div className='text-zinc-200 tracking-wide'>
       <section id='about' className='py-20'>
         <div className='align-element grid md:grid-cols-2 items-center gap-6'>
           <img 
@@ -15,10 +15,10 @@ const About = () => {
           />
           <article>
             <SectionTitle
-              borderColor='#312e81'
+              borderColor='#3b0764'
               text='code and coffee' 
             />
-            <p className='text-slate-800 mt-6 text-lg leading-relaxed'>
+            <p className='mt-6 text-lg leading-relaxed'>
               Hey there, I am a Highly motivated postgraduate student with a strong passion for <strong>computer science</strong>. 
               <br />
               <br />
@@ -32,7 +32,7 @@ const About = () => {
 
       <section className='py-20 align-element' id='skills'>
         <SectionTitle
-          borderColor='#312e81'
+          borderColor='#3b0764'
           text='What I can do'
         />
         <div className='py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
