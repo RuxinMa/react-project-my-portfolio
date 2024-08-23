@@ -61,14 +61,14 @@ function Info() {
             target='_blank'
             rel="noopener noreferrer"
           >
-            <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-600 duration-300' />
+            <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-300 duration-300' />
           </a>
           <a 
             href='https://www.linkedin.com/in/ruxin-ma/'
             target='_blank'
             rel="noreferrer"
           >
-            <FaLinkedin className='h-8 w-8'/>
+            <FaLinkedin className='h-8 w-8 hover:text-fuchsia-300 duration-300'/>
           </a>
 
         </div>

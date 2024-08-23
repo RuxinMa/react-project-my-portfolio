@@ -18,7 +18,7 @@ const Navbar = () => {
               <Link 
                 key={id}
                 to={href}
-                className='capitalize text-xl text-violet-100 font-semibold tracking-wide hover:text-fuchsia-500 hover:font-bold duration-300'
+                className='capitalize text-xl text-violet-100 font-semibold tracking-wide hover:text-fuchsia-300 hover:font-bold duration-300'
               >
                 {text}
               </Link>
