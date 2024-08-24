@@ -6,7 +6,7 @@ function Info() {
   return(
     <section className='pt-20 mt-20 lg:mt-48 px-2 lg:px-20 font-sans'>
       <h1 className="text-4xl font-medium text-center">
-          LET ME <span className="text-fuchsia-500"> INTRODUCE </span> MYSELF
+          LET ME <span className="text-violet-500"> INTRODUCE </span> MYSELF
       </h1>
 
       <article className="align-element grid xl:grid-cols-3 items-center gap-16">
@@ -20,20 +20,20 @@ function Info() {
 
         <p className="lg:col-span-2 mt-10 pt-2 text-lg lg:text-xl tracking-wide">
           I am currently pursuing Master of Computing and Innovation at the
-          <b className='text-fuchsia-500'>{" "}University of Adelaide</b> 👩‍🎓 
+          <b className='text-violet-500'>{" "}University of Adelaide</b> 👩‍🎓 
           <br />
-          <br /> Prior to this, I worked as a<i><b className='text-fuchsia-500'>{" "}Business Analyst</b></i>
+          <br /> Prior to this, I worked as a<i><b className='text-violet-500'>{" "}Business Analyst</b></i> 🫨
           <br />
           <br />
              My passion of computer science led me to study abroad, where I learned
-          <i className='text-fuchsia-500'>
+          <i className='text-violet-500'>
             <b>{" "}Python </b> and
             <b>{" "}Data Structure and Algorithms</b>
           </i>
           <br />
           <br />
-          Then, I taught myself<b className='text-fuchsia-500'> Web Development</b>, including
-          <i className='text-fuchsia-500'>
+          Then, I taught myself<b className='text-violet-500'> Web Development</b>, including
+          <i className='text-violet-500'>
             <b>
               {" "}
               HTML, CSS, Javascript
@@ -42,16 +42,16 @@ function Info() {
           </i>. 
           I am always eager to learn new technologies, and my career objective is to become a 
           <i>
-            <b className='text-fuchsia-500'> Full Stack Developer</b>
-          </i>
+            <b className='text-violet-500'> Full Stack Developer</b>
+          </i> 👩‍💻
         </p>
 
       </article>
 
       <div className="mt-20 lg:mt-32 text-center">
-        <h1 className="text-3xl">FIND ME ON</h1>
+        <h1 className="text-4xl">FIND ME ON</h1>
         <p className="mt-3 text-lg">
-          Feel free to <span className="text-fuchsia-600 font-semibold">connect </span>with me
+          Feel free to <span className="text-violet-500 font-semibold">connect </span>with me
         </p>
       
         {/* social media */}
@@ -61,14 +61,14 @@ function Info() {
             target='_blank'
             rel="noopener noreferrer"
           >
-            <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-300 duration-300' />
+            <FaGithubSquare className='h-8 w-8 hover:text-violet-300 duration-300' />
           </a>
           <a 
             href='https://www.linkedin.com/in/ruxin-ma/'
             target='_blank'
             rel="noreferrer"
           >
-            <FaLinkedin className='h-8 w-8 hover:text-fuchsia-300 duration-300'/>
+            <FaLinkedin className='h-8 w-8 hover:text-violet-300 duration-300'/>
           </a>
 
         </div>

@@ -17,10 +17,10 @@ const Hero = () => {
           </h1>
           <h1 className="mt-8 md:text-6xl text-5xl">
             I'M 
-            <strong className='text-fuchsia-500 tracking-wide'> RUXIN MA</strong>
+            <strong className='text-violet-500 tracking-wide'> RUXIN MA</strong>
           </h1>
 
-          <div className='mt-12 lg:mt-20 text-3xl lg:text-4xl text-fuchsia-500 capitalize font-semibold'>
+          <div className='mt-12 lg:mt-20 text-3xl lg:text-4xl text-violet-500 capitalize font-semibold'>
             <Type />
           </div>
         </article>

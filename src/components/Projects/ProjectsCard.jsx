@@ -7,13 +7,13 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
   let iconComponent;
 
   if (src === 1) {
-    iconComponent = <TbWorldWww className='h-8 w-8 hover:text-fuchsia-700 duration-300' />;
+    iconComponent = <TbWorldWww className='h-8 w-8 hover:text-violet-300 duration-300' />;
   } else {
-    iconComponent = <RiBaiduFill className='h-8 w-8 hover:text-fuchsia-700 duration-300' />;
+    iconComponent = <RiBaiduFill className='h-8 w-8 hover:text-violet-300 duration-300' />;
   }
 
   return (
-    <article className='bg-fuchsia-950 bg-opacity-10 rounded-lg shadow-md hover:shadow-xl duration-300 border-2 border-fuchsia-800 tracking-wide'>
+    <article className='rounded-lg shadow-md hover:shadow-xl duration-300 border-2 border-violet-800 tracking-wide'>
       <img 
         src={img} 
         alt={title} 
@@ -26,7 +26,7 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
         <div className='mt-4 flex gap-x-4'>
           <a href={url} target='_blank'>{iconComponent}</a>
           <a href={github} target='_blank'>
-            <FaGithubSquare className='h-8 w-8 hover:text-fuchsia-700 duration-300' />
+            <FaGithubSquare className='h-8 w-8 hover:text-violet-300 duration-300' />
           </a>
         </div>
       </div>
