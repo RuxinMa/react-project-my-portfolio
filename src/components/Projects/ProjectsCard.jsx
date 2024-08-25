@@ -17,13 +17,13 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
       <img 
         src={img} 
         alt={title} 
-        className='w-full object-cover rounded-t-lg h-80'
+        className='w-full object-cover rounded-t-lg p-8'
       />
-      <div className='capitalize p-8'>
-        <h2 className='text-2xl tracking-wide font-bold'>{title}</h2>
+      <div className='px-8 py-2 mb-6'>
+        <h2 className='text-xl tracking-wide font-bold'>{title}</h2>
         <h4 className='lg:text-lg'>{role}</h4>
-        <p className='mt-2 leading-relaxed normal-case lg:text-lg'>{text}</p>
-        <div className='mt-4 flex gap-x-4'>
+        <p className='mt-2 leading-relaxed'>{text}</p>
+        <div className='mt-4 flex gap-x-6'>
           <a href={url} target='_blank'>{iconComponent}</a>
           <a href={github} target='_blank'>
             <FaGithubSquare className='h-8 w-8 hover:text-violet-300 duration-300' />

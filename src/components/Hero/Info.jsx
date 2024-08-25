@@ -22,13 +22,13 @@ function Info() {
           I am currently pursuing Master of Computing and Innovation at the
           <b className='text-violet-500'>{" "}University of Adelaide</b> 👩‍🎓 
           <br />
-          <br /> Prior to this, I worked as a<i><b className='text-violet-500'>{" "}Business Analyst</b></i> 🫨
+          <br /> Prior to this, I worked as a<i><b className='text-violet-500'>{" "}Business Analyst</b></i> 🤝
           <br />
           <br />
              My passion of computer science led me to study abroad, where I learned
-          <i className='text-violet-500'>
-            <b>{" "}Python </b> and
-            <b>{" "}Data Structure and Algorithms</b>
+          <i>
+            <b className='text-violet-500'>{" "}Python </b> and
+            <b className='text-violet-500'>{" "}Data Structure and Algorithms</b>
           </i>
           <br />
           <br />

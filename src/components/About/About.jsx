@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className='text-zinc-200 tracking-wide'>
       <section id='about' className='py-20'>
-        <div className='align-element grid md:grid-cols-2 items-center gap-6'>
+        <div className='align-element grid md:grid-cols-2 items-center gap-14 md:gap-6'>
           <img 
             src={aboutSvg} 
             className='w-full h-72' 

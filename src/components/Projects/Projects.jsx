@@ -11,7 +11,7 @@ const Projects = () => {
           text='web creations' 
           textColor='text-white'
         />
-        <div className='py-16 px-10 lg:px-0 grid lg:grid-cols-2 gap-10'>
+        <div className='py-16 px-10 md:px-0 grid md:grid-cols-2 gap-10'>
           {projects.map((project) => {
             return <ProjectsCard key={project.id} {...project} />;
           })}
