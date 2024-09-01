@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../assets/home-bg.jpg';
+import bgImage from '../../assets/home-bg.jpg';
 
 const JpgBackground = ({ className = '' }) => {
   return (

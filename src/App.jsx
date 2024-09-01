@@ -4,8 +4,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
-import Background from './components/Background';
-import JpgBackground from './components/JpgBackground';
+import Background from './components/Background/Background';
+import JpgBackground from './components/Background/JpgBackground';
 
 const App = () => {
   return (

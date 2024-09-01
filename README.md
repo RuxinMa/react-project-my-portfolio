@@ -4,13 +4,18 @@
 React, JavaScript, Vite, Tailwind CSS
 
 ### Description
-Create a responsive website for personal portfolio，and the components include:
-- Navbar
-- Home (Hero)
-- Skills => skill card
-- About
-- Projects => project card
-
+Create a responsive website for personal portfolio，and the components structure are as follows:
+```bash
+src
+│
+├── assets/
+└── components/
+    ├── About/
+    ├── Hero/
+    ├── Projects/
+    ├── Backgroud/
+    ├── SectionTitle.jsx
+    └── Navbar.jsx
 
 ## Other Info
 
