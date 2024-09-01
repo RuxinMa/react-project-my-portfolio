@@ -16,6 +16,8 @@ src
     ├── Backgroud/
     ├── SectionTitle.jsx
     └── Navbar.jsx
+```
+
 
 ## Other Info
 
