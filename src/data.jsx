@@ -24,7 +24,7 @@ export const experiences = [
     company: 'UoA - MAPTEK',
     type: 'Group Project',  // optional
     location:'Adelaide',
-    decription:'Collaborated with MAPTEK, a leading mining technology company, to develop an innovative audio codec solution for underground mining communication systems using Python and Digital Signal Processing libraries. Implemented an codec achieving over 95% compression and 65%+ audio fidelity, built a systematic testing framework for iterative development, and secured a Top 4 position in final evaluation.',
+    decription:'Collaborated with MAPTEK, a leading mining technology company, to develop an audio codec solution for underground mining communication systems using Python and digital signal processing libraries. Implemented a codec achieving over 95% compression and 65%+ fidelity, built a systematic testing framework for iterative development, and secured a Top 4 position in final evaluation.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7256551222000660482/', // optional
     url_info: 'See More', // optional
     keyword: 'skills', // optional
