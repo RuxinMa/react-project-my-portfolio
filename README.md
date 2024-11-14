@@ -1,10 +1,12 @@
 ## Project Review
+[Click here to explore](https://ruxinma.netlify.app/)
 
 ### Technologies
-React, JavaScript, Vite, Tailwind CSS
+React, JavaScript, Tailwind CSS,  HTML, Vite, Netlify
 
 ### Description
-Create a responsive website for personal portfolio，and the components structure are as follows:
+Create a responsive website for a personal portfolio, and the structure of the components are as follows:
+
 ```bash
 src
 │
@@ -18,8 +20,23 @@ src
     └── Navbar.jsx
 ```
 
+## Version History
 
-## Other Info
+### v0.0  (01-2024)
+Built the initial portfolio version, including Hero, Navbar, Project, and Skills sections. All sections are displayed in a vertical waterfall layout with basic interactions.
+
+### v1.0  (08-2024)
+Updated the portfolio layout and background, with the main changes as follows:
+
+- Refactored code, separating sections into individual pages.
+- Enhanced display and interactivity, adding background images and patterns.
+- Redesigned the home and project pages for improved project presentation.
+
+### v2.0  (11-2024)
+Updated the About page by adding a timeline of experiences. Added a profile avatar to the navbar.
+
+
+## Other Information
 
 ### Setup
 ```sh
