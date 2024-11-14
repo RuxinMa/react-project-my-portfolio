@@ -1,5 +1,5 @@
-## Project Review
-[Click here to explore](https://ruxinma.netlify.app/)
+## Project Overview
+This project is deployed on Netlify, [Click here to explore](https://ruxinma.netlify.app/)
 
 ### Technologies
 React, JavaScript, Tailwind CSS,  HTML, Vite, Netlify
