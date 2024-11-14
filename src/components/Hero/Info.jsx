@@ -4,7 +4,7 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 function Info() {
   return(
-    <section className='pt-20 mt-20 lg:mt-48 px-2 lg:px-20 font-sans'>
+    <section className='pt-20 mt-14 lg:mt-32 px-2 lg:px-20 font-sans'>
       <h1 className="text-4xl font-medium text-center">
           LET ME <span className="text-violet-500"> INTRODUCE </span> MYSELF
       </h1>
