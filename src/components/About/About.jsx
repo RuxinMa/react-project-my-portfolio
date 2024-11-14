@@ -1,49 +1,62 @@
 import aboutSvg from '../../assets/about.svg';
 import SectionTitle from '../SectionTitle';
-// import { experiences } from '../data';
-import SkillsCard from './SkillsCard';
-import { skills } from '../../data';
+import Skills from './Skills';
+import ExperienceCard from './ExperienceCard';
+import { experiences } from '../../data';
 
 const About = () => {
   return (
     <div className='text-zinc-200 tracking-wide'>
-      <section id='about' className='py-20'>
-        <div className='align-element grid md:grid-cols-2 items-center gap-14 md:gap-6'>
+      <section id='about' className='sm:py-20 py-10'>
+        <div className='align-element grid md:grid-cols-2 items-center gap-10'>
           <img 
             src={aboutSvg} 
-            className='w-full h-72' 
+            className='w-full h-64' 
           />
-          <article>
+          {/* Skills */}
+          <section>
             <SectionTitle
-              borderColor='#3b0764'
-              text='code and coffee' 
-            />
-            <p className='mt-6 text-lg leading-relaxed'>
-              Hey there, I am a Highly motivated postgraduate student with a strong passion for <strong>computer science</strong>. 
-              <br />
-              <br />
-              Dedicated and focused on the IT industry with over <strong>5 years</strong> of experience excelling in software design and development, multiple-parties collaboration, agile project management, and following through to achieve project goals. <br>
-              </br><br />
-              Offering front end and full stack programming skills, MySQL, Git, and abundant work experience in web application.
-            </p>
-          </article>
+                borderColor='#3b0764'
+                text='What I can do' 
+              />
+            <Skills />
+          </section>
         </div>
       </section>
 
-      <section className='py-20 align-element' id='skills'>
+      {/* Experiences */}
+      <section className='py-7 align-element' id='experiences'>
         <SectionTitle
           borderColor='#3b0764'
-          text='What I can do'
+          text='Code And Coffee'
         />
-        <div className='py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
-          {skills.map((skill) => {
-            return <SkillsCard key={skill.id} {...skill} />;
-          })}
+        <div className='mt-8 mb-6 sm:text-lg text-sm leading-relaxed relative'>
+          {/* Timeline vertical line with gradient effect */}
+          <div className='absolute left-[7px] top-[10px] bottom-[10px] w-[2px] bg-gradient-to-b from-violet-600/50 via-violet-600/30 to-violet-600/10'></div>
+          
+          {/* Experience cards container */}
+          <div className='flex flex-col sm:gap-16 gap-12'>
+            {experiences.map((experience) => (
+              <div
+                key={experience.id}
+                className='relative pl-8 hover:pl-10 transition-all duration-300'
+              >
+                {/* Timeline dot with glow effect */}
+                <div className='absolute left-0 top-[10px] group'>
+                  <div className='w-4 h-4 rounded-full bg-violet-600 border-4 border-[#161125] relative z-10'></div>
+                  <div className='absolute inset-0 rounded-full bg-violet-500/30 animate-ping'></div>
+                </div>
+                
+                {/* Horizontal connecting line */}
+                <div className='absolute left-4 top-[17px] w-4 h-[2px] bg-violet-600/30'></div>
+                
+                <ExperienceCard experience={experience} />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
-
     </div>
-    
   );
 };
 

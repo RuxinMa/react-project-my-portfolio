@@ -1,26 +1,18 @@
-import { skills } from '../../data';
-import SectionTitle from '../../components/SectionTitle';
-import SkillsCard from './SkillsCard';
+import { skills } from "../../data";
 
 const Skills = () => {
-
-  console.log('Hero component rendered');
-  
   return (
-    <div>
-      <section className='py-20 align-element' id='skills'>
-        <SectionTitle
-          borderColor='#312e81'
-          text='What I can do'
-        />
-        <div className='py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
-          {skills.map((skill) => {
-            return <SkillsCard key={skill.id} {...skill} />;
-          })}
+    <div className='flex flex-wrap items-center justify-start gap-6 mt-10'>
+      {skills.map((skill) => (
+        <div
+          key={skill.id}
+          className={`sm:text-5xl text-3xl transition-all duration-300 ${skill.color} hover:scale-125 cursor-pointer`}
+        >
+          {skill.icon}
         </div>
-      </section>
+      ))}
     </div>
-
   );
 };
+
 export default Skills;
