@@ -2,13 +2,14 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaDatabase, FaSketch, FaProjectDiagram} from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiAmazonaws, SiMysql } from 'react-icons/si';
 import { IoTerminal } from "react-icons/io5";
-import project1 from './images/facts.png';
-import project2 from './images/github-user.png';
-import project3 from './images/portfolio.png'
+import project8 from './images/codec.png';
+import project7 from './images/facts.png';
+import project6 from './images/github-user.png';
+import project5 from './images/portfolio.png'
 import project4 from './images/shopping-cart.png'
-import project5 from './images/backroads.png';
-import project6 from './images/booklist.png';
-import project7 from './images/yyds.png';
+import project3 from './images/backroads.png';
+import project2 from './images/booklist.png';
+import project1 from './images/yyds.png';
 
 
 export const links = [
@@ -20,13 +21,49 @@ export const links = [
 export const experiences = [
   {
     id: nanoid(),
+    duration:'11/2024 - 02/2025',
+    company: "Ravi's Study Program",
+    type: '',  // optional
+    location:'Adelaide',
+    decription:"Joined Ravi's Study Program in Uni Adelaide, gaining hands-on experience in algorithm design and data structures through theoretical and practical exercises. Successfully completed all tasks and advanced to the Intermediate level.",
+    url: '', // optional
+    url_info: '', // optional
+    keyword: 'skills', // optional
+    words: ['Python', 'Algorithm Design', 'Data Structure', 'Time Management'] // optional
+  },
+  {
+    id: nanoid(),
+    duration:'12/2024 (Contract)',
+    company: "Menz Chocs",
+    type: 'Casual',  // optional
+    location:'Adelaide',
+    decription:'Worked as a Casual Retail Assistant at Menz Chocs during the Christmas season, enhancd my communication, customer service, and collaboration skills in a fast-paced, multicultural environment. Gained experience in engaging with local customers and providing quality service.',
+    url: '', // optional
+    url_info: '', // optional
+    keyword: 'skills', // optional
+    words: ['Communication', 'Customer Service', 'Teamwork', 'Cross-Cultural Interaction'] // optional
+  },
+  {
+    id: nanoid(),
+    duration:'12/2024',
+    company: "Amazon Web Services",
+    type: '',  // optional
+    location:'Adelaide',
+    decription:'Earned the AWS Certified Cloud Practitioner certification, demonstrating cloud fluency and a strong foundation in AWS services. Gained the ability to identify and utilize key AWS solutions for cloud-based projects.',
+    url: 'https://www.credly.com/badges/ca0e4316-5e61-4f63-b6f3-6e38cb661b64/public_url', // optional
+    url_info: 'See Certificate', // optional
+    keyword: 'skills', // optional
+    words: ['Amazon Web Services', 'AWS Cloud', 'Cloud Computing', 'Cloud Infrastructure'] // optional
+  },
+  {
+    id: nanoid(),
     duration:'08/2024 - 10/2024',
     company: 'UoA - MAPTEK',
     type: 'Group Project',  // optional
     location:'Adelaide',
     decription:'Collaborated with MAPTEK, a leading mining technology company, to develop an audio codec solution for underground mining communication systems using Python and digital signal processing libraries. Implemented a codec achieving over 95% compression and 65%+ fidelity, built a systematic testing framework for iterative development, and secured a Top 4 position in final evaluation.',
-    url: 'https://www.linkedin.com/feed/update/urn:li:activity:7256551222000660482/', // optional
-    url_info: 'See More', // optional
+    url: 'https://github.com/RuxinMa/sep-codec', // optional
+    url_info: 'See GitHub', // optional
     keyword: 'skills', // optional
     words: ['Python', 'Scrum', 'Teamwork', 'Client-focus','Testing', 'Agile', 'Time Management'] // optional
   },
@@ -73,7 +110,7 @@ export const experiences = [
   {
     id: nanoid(),
     duration:'01/2024 (1 week)',
-    company: 'GitHub User Searching',
+    company: 'GitHub Users',
     type: 'Personal Project', // optional
     location:'Remote',
     decription:'Developed a dynamic and responsive website that allows users to search for GitHub profiles and view their data seamlessly. Focused on integrating secure authentication, dynamic routing, and data visualization.',
@@ -112,7 +149,7 @@ export const experiences = [
   {
     id: nanoid(),
     duration:'11/2020 - 06/2023',
-    company: 'Baidu Inc.',
+    company: 'Baidu',
     type: 'Full-time', // optional
     location:'Beijing, China',
     decription:"As a Business Analyst at Baidu, China's leading AI company and search engine platform (often referred to as 'China's Google'), I optimized Top-One ranking search results, impacting millions of users and billions of page views daily. I led AI implementation, data analysis, and business intelligence efforts to enhance SEO performance and improve overall user experience.",
@@ -247,9 +284,19 @@ export const skills = [
   ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: project8,
+    url: 'https://www.linkedin.com/feed/update/urn:li:activity:7256551222000660482/',
+    github: 'https://github.com/RuxinMa/sep-codec',
+    title: 'Industry-Academia Collaboration: Audio Codec',
+    role: 'Software Developer',
+    text: 'Collaborated with MAPTEK, a leading mining technology company in SA, we developed an innovative audio codec solution for underground mining communication systems.',
+    src: 1,
+  },
     {
     id: nanoid(),
-    img: project1,
+    img: project7,
     url: 'https://rm-react-project-facts.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-facts',
     title: 'Share a Fact',
@@ -259,7 +306,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project2,
+    img: project6,
     url: 'https://rm-react-project-github-users.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-github-users',
     title: 'GitHub Users',
@@ -269,7 +316,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project3,
+    img: project5,
     url: 'https://ruxinma.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-my-portfolio',
     title: 'My Portfolio',
@@ -289,7 +336,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project5,
+    img: project3,
     url: 'https://rm-react-project-backroads.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-backroads',
     title: 'Backroads APP',
@@ -299,7 +346,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project6,
+    img: project2,
     url: 'https://rm-react-project-booklist.netlify.app/',
     github: 'https://github.com/RuxinMa/react-project-booklist',
     title: 'Booklist',
@@ -309,7 +356,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project7,
+    img: project1,
     url: 'https://www.baidu.com/s?wd=yyds%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D',
     github: 'https://github.com/RuxinMa/ba-project-seo',
     title: 'Search Engine Optimization',
