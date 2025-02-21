@@ -1,5 +1,5 @@
 ## Project Overview
-This project is deployed on Netlify, [Click here to explore](https://ruxinma.netlify.app/)
+This project is deployed on Netlify, [Click here to explore!!](https://ruxinma.netlify.app/)
 
 ### Technologies
 React, JavaScript, Tailwind CSS,  HTML, Vite, Netlify
@@ -9,7 +9,6 @@ Create a responsive website for a personal portfolio, and the structure of the c
 
 ```bash
 src
-│
 ├── assets/
 └── components/
     ├── About/
@@ -18,22 +17,32 @@ src
     ├── Backgroud/
     ├── SectionTitle.jsx
     └── Navbar.jsx
+    └── Error.jsx
 ```
 
 ## Version History
 
-### v0.0  (01-2024)
-Built the initial portfolio version, including Hero, Navbar, Project, and Skills sections. All sections are displayed in a vertical waterfall layout with basic interactions.
+### v3.0 (February 2025)
+Enhanced user experience through:
+- Added lazy loading for better performance
+- Implemented error handling and error pages
 
-### v1.0  (08-2024)
-Updated the portfolio layout and background, with the main changes as follows:
+### v2.0 (November 2024)
+Enhanced personal presentation and user interface:
+- Added interactive timeline on About page
+- Integrated profile avatar in navigation bar
 
-- Refactored code, separating sections into individual pages.
-- Enhanced display and interactivity, adding background images and patterns.
-- Redesigned the home and project pages for improved project presentation.
+### v1.0 (August 2024)
+Major architectural and design overhaul:
+- Refactored code into separate pages
+- Updated layout and background design
+- Redesigned home and project pages for better project showcase
 
-### v2.0  (11-2024)
-Updated the About page by adding a timeline of experiences. Added a profile avatar to the navbar.
+### v0.0 (January 2024)
+Initial portfolio release:
+- Created core sections: Hero, Navbar, Projects, and Skills
+- Implemented basic vertical waterfall layout
+
 
 
 ## Other Information
@@ -49,9 +58,7 @@ then
 yarn vite
 ```
 
-#### Setup Vite and Tailwind
-
-[Tailwind Docs](https://tailwindcss.com/docs/guides/vite)
+#### Setup Vite and Tailwind [Tailwind Docs](https://tailwindcss.com/docs/guides/vite)
 
 - setup vite project
 
