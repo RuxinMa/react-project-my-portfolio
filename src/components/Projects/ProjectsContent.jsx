@@ -5,14 +5,33 @@ import SectionTitle from '../SectionTitle';
 
 const ProjectsContent = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 100);
+    // Check if all images have been loaded
+    const imagePromises = projects.map(project => {
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.src = project.img;
+        img.onload = resolve;
+        img.onerror = resolve; 
+      });
+    });
 
-    return () => clearTimeout(timer);
+    Promise.all(imagePromises).then(() => {
+      setImagesLoaded(true);
+      // Add a small delay to ensure a smooth transition
+      setTimeout(() => setIsVisible(true), 100);
+    });
+
+    return () => {
+      imagePromises.forEach(promise => promise.catch(() => {}));
+    };
   }, []);
+
+  if (!imagesLoaded) {
+    return null;
+  }
 
   return (
     <div 
@@ -27,9 +46,9 @@ const ProjectsContent = () => {
           textColor='text-white'
         />
         <div className='py-16 px-10 md:px-0 grid md:grid-cols-2 gap-10'>
-          {projects.map((project) => {
-            return <ProjectsCard key={project.id} {...project} />;
-          })}
+          {projects.map((project) => (
+            <ProjectsCard key={project.id} {...project} />
+          ))}
         </div>
       </section>
     </div>
