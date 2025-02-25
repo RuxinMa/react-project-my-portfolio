@@ -19,17 +19,17 @@ function Info() {
         </div>
 
         <p className="lg:col-span-2 mt-10 pt-2 text-lg lg:text-xl tracking-wide">
-          I am currently pursuing Master of Computing and Innovation at the
+          I am currently pursuing a Master of Computing and Innovation at the
           <b className='text-violet-500'>{" "}University of Adelaide</b> 👩‍🎓 
           <br />
           <br /> Prior to this, I worked as a<i><b className='text-violet-500'>{" "}Business Analyst</b></i> 🤝
           <br />
           <br />
-             My passion of computer science led me to study abroad, where I learned
+             My passion for computer science led me to study abroad, where I learned
           <i>
             <b className='text-violet-500'>{" "}Python </b> and
-            <b className='text-violet-500'>{" "}Data Structure and Algorithms</b>
-          </i>
+            <b className='text-violet-500'>{" "}Data Structure and Algorithms</b> 
+          </i> 🤖
           <br />
           <br />
           Then, I taught myself<b className='text-violet-500'> Web Development</b>, including
@@ -42,7 +42,7 @@ function Info() {
           </i>. 
           I am always eager to learn new technologies, and my career objective is to become a 
           <i>
-            <b className='text-violet-500'> Full Stack Developer</b>
+            <b className='text-violet-500'> Software Engineer</b>
           </i> 👩‍💻
         </p>
 
