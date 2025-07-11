@@ -1,7 +1,9 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaDatabase, FaSketch, FaProjectDiagram} from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiAmazonaws, SiMysql } from 'react-icons/si';
-import { IoTerminal } from "react-icons/io5";
+
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaDatabase, FaSketch, FaFigma } from 'react-icons/fa';
+import { SiTailwindcss, SiTypescript, SiNextdotjs, SiRedux, SiAmazonaws, SiMysql, SiPostgresql, SiVite, SiNetlify } from 'react-icons/si';
+
+import project9 from './images/packpilot.png';
 import project8 from './images/codec.png';
 import project7 from './images/facts.png';
 import project6 from './images/github-user.png';
@@ -18,7 +20,131 @@ export const links = [
   { id: nanoid(), href: '/projects', text: 'projects' },
 ];
 
+
+export const skills = [
+  { 
+    id: nanoid(), 
+    icon: <FaHtml5 />,
+    name: 'HTML5', 
+    color: 'hover:text-orange-500',
+  },
+  { 
+    id: nanoid(), 
+    icon: <FaCss3Alt />, 
+    name: 'CSS3',
+    color: 'hover:text-sky-600',
+  },
+  { 
+    id: nanoid(), 
+    icon: <FaJs />, 
+    name: 'JavaScript',
+    color: 'hover:text-yellow-400' 
+  },
+    { 
+    id: nanoid(), 
+    icon: <FaReact />, 
+    name: 'React',
+    color: 'hover:text-cyan-400',
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiTypescript />,
+    name: 'TypeScript',
+    color: 'hover:text-sky-400' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiNextdotjs />, 
+    name: 'Next.js',
+    color: 'hover:text-zinc-600' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiRedux />, 
+    name: 'Redux',
+    color: 'hover:text-purple-500' 
+  },
+    { 
+    id: nanoid(), 
+    icon: <SiTailwindcss />,
+    name: 'Tailwind CSS',
+    color: 'hover:text-teal-400' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <FaPython />, 
+    name: 'Python',
+    color: 'hover:text-blue-500' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <FaDatabase />, 
+    name: 'Database',
+    color: 'hover:text-blue-500' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiMysql />, 
+    name: 'MySQL',
+    color: 'hover:text-blue-500' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiPostgresql />, 
+    name: 'PostgreSQL',
+    color: 'hover:text-blue-700' 
+  },
+    { 
+    id: nanoid(), 
+    icon: <SiAmazonaws />, 
+     name: 'AWS',
+    color: 'hover:text-yellow-500' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiVite />, 
+    name: 'Vite',
+    color: 'hover:text-purple-500' 
+  },
+  { 
+    id: nanoid(), 
+    icon: <SiNetlify />, 
+    name: 'Netlify',
+    color: 'hover:text-teal-400' 
+  },
+    { 
+    id: nanoid(), 
+    icon: <FaGitAlt />, 
+    name: 'Git',
+    color: 'hover:text-orange-500' 
+  },
+  // { 
+  //   id: nanoid(), 
+  //   icon: <FaFigma />, 
+  //   name: 'Figma',
+  //   color: 'hover:text-purple-500' 
+  // },
+  // { 
+  //   id: nanoid(), 
+  //   icon: <FaSketch />, 
+  //   name: 'Sketch',
+  //   color: 'hover:text-amber-500' 
+  // },
+];
+
 export const experiences = [
+  {
+    id: nanoid(),
+    duration:'03/2025 - Current',
+    company: "Adelaide University",
+    type: 'Casual',  // optional
+    location:'Adelaide',
+    decription:"Started as a Student Ambassador volunteer in April 2024 and was officially appointed as a casual professional staff member March 2025. In this role. My responsibilities include conducting campus tours, participating in events, and helping prospective students from around the world understand university life and academic opportunities.",
+    url: '', // optional
+    url_info: '', // optional
+    keyword: 'skills', // optional
+    words: ['Communication', 'Cross-cultural Engagement', 'Customer Service', 'Relationship Building', 'Adaptability'] // optional
+  },
   {
     id: nanoid(),
     duration:'11/2024 - 02/2025',
@@ -26,18 +152,18 @@ export const experiences = [
     type: '',  // optional
     location:'Adelaide',
     decription:"Joined Ravi's Study Program in Uni Adelaide, gaining hands-on experience in algorithm design and data structures through theoretical and practical exercises. Successfully completed all tasks and advanced to the Intermediate level.",
-    url: '', // optional
-    url_info: '', // optional
+    url: 'https://www.linkedin.com/feed/update/urn:li:activity:7302961831088693248/', // optional
+    url_info: 'Learn More', // optional
     keyword: 'skills', // optional
-    words: ['Python', 'Algorithm Design', 'Data Structure', 'Time Management'] // optional
+    words: ['Python', 'Algorithm Design', 'Data Structure', 'Problem-Solving', 'Time Management'] // optional
   },
   {
     id: nanoid(),
-    duration:'12/2024 (Contract)',
+    duration:'12/2024',
     company: "Menz Chocs",
     type: 'Casual',  // optional
     location:'Adelaide',
-    decription:'Worked as a Casual Retail Assistant at Menz Chocs during the Christmas season, enhancd my communication, customer service, and collaboration skills in a fast-paced, multicultural environment. Gained experience in engaging with local customers and providing quality service.',
+    decription:'Worked as a Casual Retail Assistant at Menz Chocs during Christmas season, enhancd communication, customer service, and collaboration skills in a fast-paced, multicultural environment. Gained experience in engaging with local customers and providing quality service.',
     url: '', // optional
     url_info: '', // optional
     keyword: 'skills', // optional
@@ -58,19 +184,6 @@ export const experiences = [
   {
     id: nanoid(),
     duration:'08/2024 - 10/2024',
-    company: 'UoA - MAPTEK',
-    type: 'Group Project',  // optional
-    location:'Adelaide',
-    decription:'Collaborated with MAPTEK, a leading mining technology company, to develop an audio codec solution for underground mining communication systems using Python and digital signal processing libraries. Implemented a codec achieving over 95% compression and 65%+ fidelity, built a systematic testing framework for iterative development, and secured a Top 4 position in final evaluation.',
-    url: 'https://github.com/RuxinMa/sep-codec', // optional
-    url_info: 'See GitHub', // optional
-    keyword: 'skills', // optional
-    words: ['Python', 'Scrum', 'Teamwork', 'Client-focus','Testing', 'Agile', 'Time Management'] // optional
-  },
-
-  {
-    id: nanoid(),
-    duration:'08/2024 - 10/2024',
     company: 'Himalaya Peak',
     type: 'Internship',  // optional
     location:'Adelaide',
@@ -86,7 +199,7 @@ export const experiences = [
     duration:'07/2024 - 09/2024',
     company: 'QuickSite Guru',
     type: 'Internship', // optional
-    location:'Melbourne (Remote)',
+    location:'Melbourne',
     decription:'Worked as a React developer focused on component design and development, independently building the content section. Actively participated in weekly meetings, proficient in version control through GitHub, and contributed to and incorporated constructive feedback.',
     url: 'https://drive.google.com/file/d/1BfBieG-69Zz7Zy1ykOgbIQH4tSwr0RzT/view?usp=sharing', // optional
     url_info: 'See Certificate', // optional
@@ -97,7 +210,7 @@ export const experiences = [
   {
     id: nanoid(),
     duration:'04/2024 - Present',
-    company: 'University of Adelaide',
+    company: 'International Student Ambassador',
     type: 'Volunteering', // optional
     location:'Adelaide',
     decription:'As an International Student Ambassador at UoA, I am proud and excited to assist future students from around the world. This role has provided numerous opportunities to engage with people from diverse cultural backgrounds and help with various activities, including campus tours and events.',
@@ -106,20 +219,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Communication', 'Customer Service', 'Relationship Building', 'Adaptability'] // optional
   },
-
-  {
-    id: nanoid(),
-    duration:'01/2024 (1 week)',
-    company: 'GitHub Users',
-    type: 'Personal Project', // optional
-    location:'Remote',
-    decription:'Developed a dynamic and responsive website that allows users to search for GitHub profiles and view their data seamlessly. Focused on integrating secure authentication, dynamic routing, and data visualization.',
-    url: 'https://github.com/RuxinMa/react-project-github-users', // optional
-    url_info: 'See GitHub', // optional
-    keyword: 'techs', // optional
-    words: ['JavaScript', 'React', 'API Integration', 'Authentication', 'FusionCharts', 'Web Dev', 'Data Visualization'] // optional
-  },
-
   {
     id: nanoid(),
     duration:'11/2023 - Present',
@@ -139,7 +238,7 @@ export const experiences = [
     company: 'University of Adelaide',
     type: 'Master', // optional
     location:'Adelaide',
-    decription:"As a Master's student in Computer Science, I have delved into the fundamentals of Python programming, algorithms and data structures, along with practical courses in areas like big data mining, project management, and software development. Currently, I have a GPA of 6.2/7 and am expected to graduate in July 2025.",
+    decription:"As a Master's student in Computer Science, I have delved into the fundamentals of Python programming, algorithms and data structures, along with practical courses in areas like big data mining, project management, and software development. Currently, I have a GPA of 6.125/7 and am expected to graduate in July 2025.",
     url: 'https://drive.google.com/file/d/1qyoiOkKyYDI_pzXKXdu6mpitvAzwvvWr/view?usp=sharing', // optional
     url_info: 'See my transcript', // optional
     keyword: 'skills', // optional
@@ -150,7 +249,7 @@ export const experiences = [
     id: nanoid(),
     duration:'11/2020 - 06/2023',
     company: 'Baidu',
-    type: 'Full-time', // optional
+    type: 'Full-Time', // optional
     location:'Beijing, China',
     decription:"As a Business Analyst at Baidu, China's leading AI company and search engine platform (often referred to as 'China's Google'), I optimized Top-One ranking search results, impacting millions of users and billions of page views daily. I led AI implementation, data analysis, and business intelligence efforts to enhance SEO performance and improve overall user experience.",
     url: 'https://en.wikipedia.org/wiki/Baidu', // optional
@@ -163,7 +262,7 @@ export const experiences = [
     id: nanoid(),
     duration:'09/2019 - 11/2020',
     company: 'RenRen',
-    type: 'Full-time', // optional
+    type: 'Full-Time', // optional
     location:'Beijing, China',
     decription:"As a Product Manager at RenRen, China's leading social media application, I optimized both iOS and Android products, driving improvements in user engagement and functionality through effective product design, requirement gathering, and cross-team collaboration.",
     url: '', // optional
@@ -187,19 +286,6 @@ export const experiences = [
 
   {
     id: nanoid(),
-    duration:'09/2016 - 04/2019',
-    company: 'North China Electric Power University',
-    type: 'Master', // optional
-    location:'Beijing, China',
-    decription:'Majored in Electric and Communication Engineering, an IT-related program, where I gained knowledge in network technology, communication principles, and other related fields.',
-    url: '', // optional
-    url_info: '', // optional
-    keyword: '', // optional
-    words: [''] // optional
-  },
-
-  {
-    id: nanoid(),
     duration:'09/2012 - 06/2016',
     company: 'North China Electric Power University',
     type: 'Bachelor', // optional
@@ -210,80 +296,19 @@ export const experiences = [
     keyword: '', // optional
     words: [''] // optional
   },
-
-]
-
-export const skills = [
-    { 
-      id: nanoid(), 
-      icon: <FaHtml5 />, 
-      color: 'hover:text-orange-500',
-      url: 'https://www.w3.org/html/' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaCss3Alt />, 
-      color: 'hover:text-blue-500',
-      url: ''
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaJs />, 
-      color: 'hover:text-yellow-400' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaReact />, 
-      color: 'hover:text-cyan-400',
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaPython />, 
-      color: 'hover:text-blue-500' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <SiTypescript />, 
-      color: 'hover:text-sky-400' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaDatabase />, 
-      color: 'hover:text-blue-500' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <IoTerminal />, 
-      color: 'hover:text-orange-600' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaProjectDiagram />, 
-      color: 'hover:text-violet-500' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <SiAmazonaws />, 
-      color: 'hover:text-yellow-500' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <SiTailwindcss />, 
-      color: 'hover:text-teal-400' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <SiMysql />, 
-      color: 'hover:text-blue-500' 
-    },
-    { 
-      id: nanoid(), 
-      icon: <FaSketch />, 
-      color: 'hover:text-amber-500' 
-    },
-  ];
+];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: project9,
+    url: 'https://packpilot-frontend.vercel.app',
+    github: 'https://github.com/RuxinMa/packpilot',
+    title: 'Warehouse Packing Management Platform: PackPilot',
+    role: 'Full Stack Developer',
+    text: 'Led a 6-student team developing a full-stack warehouse management platform that integrates AI placement algorithms and visualization solutions to optimize packing efficiency.',
+    src: 1,
+  },
   {
     id: nanoid(),
     img: project8,

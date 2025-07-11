@@ -20,7 +20,7 @@ const ExperienceCard = ({ experience }) => {
         <p className='whitespace-nowrap'>
           {company}
           {type && (
-            <span className='opacity-7 text-purple-700 rounded ml-2 p-1 text-base'>
+            <span className='opacity-7 text-purple-500 rounded ml-2 p-1 text-base'>
               {type}
             </span>
           )}
@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }) => {
                 href={url} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className='text-purple-500 ml-2 hover:text-purple-300'
+                className='text-purple-500 ml-2 hover:text-yellow-200'
               > 
                 {url_info}
               </a>
@@ -71,7 +71,7 @@ const ExperienceCard = ({ experience }) => {
                       key={index}
                       className={`
                         ${bgColor} 
-                        text-green-950 rounded px-2 sm:text-[16px] text-sm inline-block whitespace-nowrap
+                        text-green-950 rounded px-2 sm:text-base text-xs inline-block whitespace-nowrap
                       `}
                     >
                       {word}

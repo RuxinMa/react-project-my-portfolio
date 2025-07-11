@@ -17,9 +17,9 @@ const ProjectsCard = ({ url, img, github, title, role, text, src }) => {
         loading="eager" 
       />
       <div className='px-8 py-2 mb-6'>
-        <h2 className='text-xl tracking-wide font-bold'>{title}</h2>
+        <h2 className='lg:text-xl tracking-wide font-bold'>{title}</h2>
         <h4 className='lg:text-lg'>{role}</h4>
-        <p className='mt-2 leading-relaxed'>{text}</p>
+        <p className='mt-2 text-sm lg:text-base leading-relaxed'>{text}</p>
         <div className='mt-4 flex gap-x-6'>
           <a href={url} target='_blank' rel="noreferrer">{iconComponent}</a>
           <a href={github} target='_blank' rel="noreferrer">
