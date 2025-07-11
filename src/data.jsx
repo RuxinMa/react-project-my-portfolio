@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaDatabase, FaSketch, FaProjectDiagram} from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiAmazonaws, SiMysql } from 'react-icons/si';
 import { IoTerminal } from "react-icons/io5";
+import project9 from './images/packpilot.png';
 import project8 from './images/codec.png';
 import project7 from './images/facts.png';
 import project6 from './images/github-user.png';
@@ -26,8 +27,8 @@ export const experiences = [
     type: '',  // optional
     location:'Adelaide',
     decription:"Joined Ravi's Study Program in Uni Adelaide, gaining hands-on experience in algorithm design and data structures through theoretical and practical exercises. Successfully completed all tasks and advanced to the Intermediate level.",
-    url: '', // optional
-    url_info: '', // optional
+    url: 'https://www.linkedin.com/feed/update/urn:li:activity:7302961831088693248/', // optional
+    url_info: 'Learn More', // optional
     keyword: 'skills', // optional
     words: ['Python', 'Algorithm Design', 'Data Structure', 'Time Management'] // optional
   },
@@ -55,19 +56,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Amazon Web Services', 'AWS Cloud', 'Cloud Computing', 'Cloud Infrastructure'] // optional
   },
-  {
-    id: nanoid(),
-    duration:'08/2024 - 10/2024',
-    company: 'UoA - MAPTEK',
-    type: 'Group Project',  // optional
-    location:'Adelaide',
-    decription:'Collaborated with MAPTEK, a leading mining technology company, to develop an audio codec solution for underground mining communication systems using Python and digital signal processing libraries. Implemented a codec achieving over 95% compression and 65%+ fidelity, built a systematic testing framework for iterative development, and secured a Top 4 position in final evaluation.',
-    url: 'https://github.com/RuxinMa/sep-codec', // optional
-    url_info: 'See GitHub', // optional
-    keyword: 'skills', // optional
-    words: ['Python', 'Scrum', 'Teamwork', 'Client-focus','Testing', 'Agile', 'Time Management'] // optional
-  },
-
   {
     id: nanoid(),
     duration:'08/2024 - 10/2024',
@@ -106,20 +94,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Communication', 'Customer Service', 'Relationship Building', 'Adaptability'] // optional
   },
-
-  {
-    id: nanoid(),
-    duration:'01/2024 (1 week)',
-    company: 'GitHub Users',
-    type: 'Personal Project', // optional
-    location:'Remote',
-    decription:'Developed a dynamic and responsive website that allows users to search for GitHub profiles and view their data seamlessly. Focused on integrating secure authentication, dynamic routing, and data visualization.',
-    url: 'https://github.com/RuxinMa/react-project-github-users', // optional
-    url_info: 'See GitHub', // optional
-    keyword: 'techs', // optional
-    words: ['JavaScript', 'React', 'API Integration', 'Authentication', 'FusionCharts', 'Web Dev', 'Data Visualization'] // optional
-  },
-
   {
     id: nanoid(),
     duration:'11/2023 - Present',
@@ -183,19 +157,6 @@ export const experiences = [
     url_info: '', // optional
     keyword: 'skills', // optional
     words: ['Communication', 'Product Operations','Collaboration', 'Data Analysis', 'Collaborative Problem Solving'] // optional
-  },
-
-  {
-    id: nanoid(),
-    duration:'09/2016 - 04/2019',
-    company: 'North China Electric Power University',
-    type: 'Master', // optional
-    location:'Beijing, China',
-    decription:'Majored in Electric and Communication Engineering, an IT-related program, where I gained knowledge in network technology, communication principles, and other related fields.',
-    url: '', // optional
-    url_info: '', // optional
-    keyword: '', // optional
-    words: [''] // optional
   },
 
   {
@@ -284,6 +245,16 @@ export const skills = [
   ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: project9,
+    url: 'https://packpilot-frontend.vercel.app',
+    github: 'https://github.com/RuxinMa/packpilot',
+    title: 'Warehouse Packing Management Platform: PackPilot',
+    role: 'Full Stack Developer',
+    text: 'Led a 6-student team developing a full-stack warehouse management platform that integrates AI placement algorithms and visualization solutions to optimize packing efficiency.',
+    src: 1,
+  },
   {
     id: nanoid(),
     img: project8,
