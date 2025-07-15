@@ -234,15 +234,15 @@ export const experiences = [
 
   {
     id: nanoid(),
-    duration:'07/2023 - Present',
+    duration:'07/2023 - 07/2025',
     company: 'University of Adelaide',
     type: 'Master', // optional
     location:'Adelaide',
     decription:"As a Master's student in Computer Science, I have delved into the fundamentals of Python programming, algorithms and data structures, along with practical courses in areas like big data mining, project management, and software development. Currently, I have a GPA of 6.125/7 and am expected to graduate in July 2025.",
-    url: 'https://drive.google.com/file/d/1qyoiOkKyYDI_pzXKXdu6mpitvAzwvvWr/view?usp=sharing', // optional
+    url: 'https://drive.google.com/file/d/1zlbTVc-z3so99o8TjcTMY_yVsO3V3ewo/view?usp=sharing', // optional
     url_info: 'See my transcript', // optional
     keyword: 'skills', // optional
-    words: ['Python', 'Algorithm', 'Data Structure', 'Big Data', 'Project Management', 'Learning Ability',] // optional
+    words: ['Python', 'Algorithm Design', 'Data Structure', 'Project Management', 'Learning Ability',] // optional
   },
 
   {
