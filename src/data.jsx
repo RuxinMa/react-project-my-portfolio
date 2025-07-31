@@ -139,7 +139,7 @@ export const experiences = [
     company: 'University of Adelaide',
     type: 'Master', // optional
     location:'Adelaide',
-    decription:"As a Master's student in Computer Science, I have delved into the fundamentals of Python programming, algorithms and data structures, along with practical courses in areas like big data mining, project management, and software development. Currently, I have a GPA of 6.125/7 and am expected to graduate in July 2025.",
+    decription:"Having completed my Master's degree in Computing and Innovation, I have gained expertise in Python programming, algorithms and data structures, along with experience in areas like computer networks and software development. I achieved a GPA of 6.3/7 and graduated in July 2025",
     url: 'https://drive.google.com/file/d/1HHq58l8zrUIqJsHLEtFoBW2GezsRbhao/view?usp=sharing', // optional
     url_info: 'See my transcript', // optional
     keyword: 'skills', // optional
