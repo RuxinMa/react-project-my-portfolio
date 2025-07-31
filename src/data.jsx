@@ -135,6 +135,18 @@ export const skills = [
 export const experiences = [
   {
     id: nanoid(),
+    duration:'07/2023 - 07/2025',
+    company: 'University of Adelaide',
+    type: 'Master', // optional
+    location:'Adelaide',
+    decription:"As a Master's student in Computer Science, I have delved into the fundamentals of Python programming, algorithms and data structures, along with practical courses in areas like big data mining, project management, and software development. Currently, I have a GPA of 6.125/7 and am expected to graduate in July 2025.",
+    url: 'https://drive.google.com/file/d/1HHq58l8zrUIqJsHLEtFoBW2GezsRbhao/view?usp=sharing', // optional
+    url_info: 'See my transcript', // optional
+    keyword: 'skills', // optional
+    words: ['Python', 'Algorithm Design', 'Data Structure', 'Project Management', 'Learning Ability',] // optional
+  },
+  {
+    id: nanoid(),
     duration:'03/2025 - Current',
     company: "Adelaide University",
     type: 'Casual',  // optional
@@ -193,7 +205,6 @@ export const experiences = [
     keyword: 'techs', // optional
     words: ['TypeScript', 'React', 'Tailwaind CSS', 'MySQL', 'Docker', 'Web Dev', 'Next.js'] // optional
   },
-
   {
     id: nanoid(),
     duration:'07/2024 - 09/2024',
@@ -231,20 +242,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Learning Ability', 'Time Management', 'Self-Motivation', 'HTML', 'CSS', 'JavaScript', 'React', 'Web Dev'] // optional
   },
-
-  {
-    id: nanoid(),
-    duration:'07/2023 - 07/2025',
-    company: 'University of Adelaide',
-    type: 'Master', // optional
-    location:'Adelaide',
-    decription:"As a Master's student in Computer Science, I have delved into the fundamentals of Python programming, algorithms and data structures, along with practical courses in areas like big data mining, project management, and software development. Currently, I have a GPA of 6.125/7 and am expected to graduate in July 2025.",
-    url: 'https://drive.google.com/file/d/1zlbTVc-z3so99o8TjcTMY_yVsO3V3ewo/view?usp=sharing', // optional
-    url_info: 'See my transcript', // optional
-    keyword: 'skills', // optional
-    words: ['Python', 'Algorithm Design', 'Data Structure', 'Project Management', 'Learning Ability',] // optional
-  },
-
   {
     id: nanoid(),
     duration:'11/2020 - 06/2023',
@@ -257,7 +254,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Data Analysis', 'Requirement Gathering', 'Communication', 'Collaboration', 'SEO', 'Project Management', 'Agile', 'A/B Test'] // optional
   },
-
   {
     id: nanoid(),
     duration:'09/2019 - 11/2020',
@@ -270,7 +266,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Product Design', 'Product Operations', 'Communication', 'Collaboration', 'Data Analysis', 'Mobile Applications'] // optional
   },
-
   {
     id: nanoid(),
     duration:'10/2018 - 01/2019',
@@ -283,7 +278,6 @@ export const experiences = [
     keyword: 'skills', // optional
     words: ['Communication', 'Product Operations','Collaboration', 'Data Analysis', 'Collaborative Problem Solving'] // optional
   },
-
   {
     id: nanoid(),
     duration:'09/2012 - 06/2016',
