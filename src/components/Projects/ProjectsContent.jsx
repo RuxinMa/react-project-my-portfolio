@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import ProjectsCard from './ProjectsCard';
-import { projects } from '../../data';
 import SectionTitle from '../SectionTitle';
+import { projects } from '../../data/projectData';
 
 const ProjectsContent = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import SectionTitle from '../SectionTitle';
 import Skills from './Skills';
-import ExperienceCard from './ExperienceCard';
-import { experiences } from '../../data';
+import ExperienceCard from './ExperienceCard';  
+import { experiences } from '../../data/aboutData';
 
 const AboutContent = () => {
   const [aboutSvg, setAboutSvg] = useState(null);

@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect } from 'react';
 import Loading from '../Loading/Loading';
 import Error from '../Error';
-import { projects } from '../../data';
+import { projects } from '../../data/projectData';
 
 const ProjectsContent = React.lazy(() => import('./ProjectsContent'));
 

@@ -1,4 +1,4 @@
-import { skills } from "../../data";
+import { skills } from "../../data/skillsData";
 
 const Skills = () => {
   return (
