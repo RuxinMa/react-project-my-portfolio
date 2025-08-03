@@ -1,6 +1,12 @@
+import { nanoid } from 'nanoid';
 import { Link, useLocation } from 'react-router-dom';
-import { links } from '../data';
-import avatar from '../images/avatar.png';
+import avatar from '../assets/images/avatar.png';
+
+const links = [
+  { id: nanoid(), href: '/', text: 'home' },
+  { id: nanoid(), href: '/about', text: 'about' },
+  { id: nanoid(), href: '/projects', text: 'projects' },
+];
 
 const Navbar = () => {
   const location = useLocation();
@@ -31,7 +37,7 @@ const Navbar = () => {
                   capitalize font-semibold tracking-wide duration-300 relative
                   ${isActive 
                     ? 'text-violet-400 text-base sm:text-xl font-bold' 
-                    : 'text-violet-100 text-base sm:text-xl hover:text-violet-400 hover:font-bold'
+                    : 'text-violet-100 text-base sm:text-xl hover:text-violet-600 hover:font-bold'
                   }
                 `}
               >
