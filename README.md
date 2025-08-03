@@ -96,26 +96,26 @@ npm run build
 
 ## 📚 Version History
 
-### 🎯 v3.0 (February 2025) - Performance & UX
+### 🎯 v4.0 (February 2025) - Performance & UX
 **Enhanced user experience and performance optimizations**
 - ✅ **Lazy Loading** - Improved page load times
 - ✅ **Error Handling** - Comprehensive error boundaries
 - ✅ **Skill Tooltips** - Hover effects and name display for technology icons
 
-### 🎨 v2.0 (November 2024) - Interactive Features
+### 🎨 v3.0 (November 2024) - Interactive Features
 **Enhanced personal presentation and user interface**
 - ✅ **Interactive Timeline** - Dynamic experience showcase on About page
 - ✅ **Profile Integration** - Avatar in navigation bar with LinkedIn integration
 - ✅ **Active Navigation** - Visual indicators for current page
 
-### 🏗️ v1.0 (August 2024) - Major Redesign
+### 🏗️ v2.0 (August 2024) - Major Redesign
 **Complete architectural and design overhaul**
 - ✅ **Multi-page Architecture** - Refactored into separate pages with React Router
 - ✅ **Modern Layout** - Updated design system and background effects
 - ✅ **Project Showcase** - Redesigned project cards with better presentation
 - ✅ **Responsive Design** - Mobile-first approach for all screen sizes
 
-### 🌱 v0.0 (January 2024) - Initial Release
+### 🌱 v1.0 (January 2024) - Initial Release
 **Foundation and core functionality**
 - ✅ **Core Sections** - Hero, Navbar, Projects, and Skills components
 - ✅ **Basic Layout** - Vertical waterfall layout implementation
