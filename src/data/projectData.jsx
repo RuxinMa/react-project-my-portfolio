@@ -12,14 +12,14 @@ import project2 from '../assets/images/booklist.png';
 import project1 from '../assets/images/yyds.png';
 
 export const projects = [
-    {
+  {
     id: nanoid(),
     img: project10,
-    url: 'https://toursapp-production.up.railway.app/',
+    url: 'https://tours-app-omega.vercel.app/',
     github: 'https://github.com/RuxinMa/tours-app',
     title: 'Tours App',
     role: 'Full Stack Developer',
-    text: 'A full-stack tour booking web application built with Node.js, Express, and MongoDB. Features user authentication, tour browsing, secure payments, and email notifications.',
+    text: 'A tour booking platform built with React, TypeScript, and Redux Toolkit for the frontend, powered by Express.js and MongoDB on the backend. Features secure JWT authentication, Stripe payment integration and a fully responsive Tailwind CSS interface.',
     src: 1,
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     github: 'https://github.com/RuxinMa/packpilot',
     title: 'Warehouse Packing Management Platform: PackPilot',
     role: 'Full Stack Developer',
-    text: 'Led a 6-student team developing a full-stack warehouse management platform that integrates AI placement algorithms and visualization solutions to optimize packing efficiency.',
+    text: 'Led a 6-student team building an AI-powered warehouse packing platform. Features real-time 3D visualization and comprehensive inventory management. Frontend built with React/TypeScript/Tailwind CSS, backend powered by Python Flask with SQLAlchemy.',
     src: 1,
   },
   {
