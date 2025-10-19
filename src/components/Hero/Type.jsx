@@ -1,4 +1,3 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Type() {
@@ -7,8 +6,8 @@ function Type() {
       options={{
         strings: [
           "Software Engineer",
-          "Computer Science Student",
           "Full Stack Developer",
+          "Former Business Analyst",
         ],
         autoStart: true,
         loop: true,

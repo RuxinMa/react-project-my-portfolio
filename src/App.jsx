@@ -9,6 +9,7 @@ import Error from './components/Error';
 
 const About = React.lazy(() => import('./components/About/About'));
 const Projects = React.lazy(() => import('./components/Projects/Projects'));
+const NotFound = React.lazy(() => import('./components/NotFound/NotFound'));
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
                 <Route path="/" element={<Hero />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>
           </div>
