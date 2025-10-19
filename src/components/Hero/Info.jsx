@@ -39,7 +39,7 @@ function Info() {
             Then, I expanded my skills through self-directed learning in<b className='text-violet-400'> Full-Stack Web Development</b>, building projects with
             <b className='text-violet-400'> MERN stack</b> 
               <span className='text-white'> (MongoDB, Express.js, React, Node.js) along with</span>
-              <b className='text-violet-400'> HTML, CSS, and Javascript</b> 💻
+              <b className='text-violet-400'> TypeScript, HTML and CSS</b> 💻
           </p>
           
           <p>
